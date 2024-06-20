@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FDatos lavador</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+<body>
+      <header class="header">
+        <nav class="navbar container">
+            <div class="navbar__logo">
+                <img src="img/Logo.jpeg" alt="Logo Brillante">
+                <h2 class="navbar__title"></h2>
+            </div>
+            <div class="search-container">
+                <form id="searchForm" action="/buscar" method="GET">
+                    <input type="text" name="query" id="searchInput" placeholder="Buscar..." class="search-input">
+                    <button type="submit" class="search-button">Buscar</button>
+                </form>
+            </div>
+            <ul class="navbar__links navbar__links--menu">
+                <li class="nav__items">
+                    <a href="index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="index.html#servicio" class="nav__links">Servicios</a>
+                </li>
+                <li class="nav__items">
+                    <a href="index.html#nosotros" class="nav__links">Antecedentes</a>
+                </li>
+                <li class="nav__items">
+                    <a href="index.html#personal" class="nav__links">Cerca de ti</a>
+                </li>
+                <li class="nav__items">
+                    <a href="index.html#mvo" class="nav__links">M-V-O</a>
+                </li>
+                <li class="nav__items">
+                    <a href="IniciarSesion.html" class="nav__links">Iniciar Sesión</a>
+                </li>
+                <img src="img/close.svg" class="navbar__close" alt="">
+            </ul>
+            <div class="navbar__menu">
+                <img src="img/menu.svg" class="navbar__icon" alt="">
+            </div>
+        </nav>
+    </header>
+
+    
+      <table class="service-table">
+        <tr>
+            <td rowspan="4" class="img-container"><img src="img/LAVADOR1.jpeg" alt="Foto de Miguel Martines Gomez"></td>
+            <td><strong>Nombre: </strong> Miguel Martinez Gomez</td>
+            <td rowspan="4" class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.567635498294!2d-77.0282406856149!3d-12.043180891456594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c7e6a6d9f1%3A0x5c6f0b8d7a0bfe5f!2sPlaza%20Mayor%20de%20Lima!5e0!3m2!1ses!2spe!4v1592614286400!5m2!1ses!2spe" 
+                    frameborder="0" 
+                    allowfullscreen="" 
+                    aria-hidden="false" 
+                    tabindex="0">
+                </iframe>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Email: </strong> miguelangel@gmail.com</td>
+        </tr>
+        <tr>
+            <td><strong>Teléfono: </strong> +52 555-123-4567</td>
+        </tr>
+        <tr>
+            <td class="button-container">
+                <a href="IniciarSesion.html" class="cta">Confirmar</a>
+                <a href="index.html" class="cta cancel">Cancelar</a>
+            </td>
+        </tr>
+    </table>
+
+    <footer class="footer" id="footerid">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">CarWash Movil</h2>
+                <ul>
+                    <li>
+                        <p>Dirección</p>
+                        Manuel caballero 131, Col. La obrera, casi equina 5 de febrero, Cuidad de Mexico 06800
+                    </li>
+                    <li>Martinez Garcia Fernando</li>
+                    <li>
+                        <p>Teléfono</p>
+                        52+ 55 6808-1606
+                    </li>
+                    <li>
+                        <p>Email</p>
+                        publicidad131@gmail.com
+                    </li>
+                </ul>
+            </nav>
+    
+            <div class="information">
+                <p class="title-footer">Información</p>
+                <ul>
+                    <li><a href="#">Acerca de Nosotros</a></li>
+                    <li><a href="#">Políticas de Privacidad</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#Contacto">Contáctanos</a></li>
+                </ul>
+            </div>
+    
+            <form class="footer__form" action="#" method="POST">
+                <h2 class="footer__newsletter">Comunicate Con Nosotros</h2>
+                <div class="footer__inputs">
+                    <input type="text" placeholder="Comentario:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Enviar" class="footer__submit">
+                </div>
+            </form>
+        </section>
+    
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="https://www.facebook.com/share/UNwMHmu1zvN31cZS/" class="footer__icons"><img src="img/bxl-facebook.svg" class="footer__img"></a>
+                <a href="https://www.instagram.com/diamondwashservices?utm_source=qr&igsh=MXQ0dnB1ZDUxZDl1bg==" class="footer__icons"><img src="img/bxl-instagram.svg" class="footer__img"></a>
+                <a href="https://mx.linkedin.com" class="footer__icons"><img src="img/bxl-linkedin.svg" class="footer__img"></a>
+            </div>
+    
+            <h3 class="footer__copyright">Derechos reservados &copy; DIG+</h3>
+            <br>
+            <img src="img/payment.png" alt="Pagos">
+        </section>
+    </footer>
+        <script src="./js/slider.js"></script>
+        <script src="./js/questions.js"></script>
+        <script src="./js/menu.js"></script>
+</body>
+</html>
