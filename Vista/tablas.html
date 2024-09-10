@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarWash Movil</title>
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="img/Logo.jpeg" alt="Logo">
+                <h2 class="nav__title"></h2>
+            </div>
+    
+            <div class="search-container">
+                <form id="searchForm" action="/buscar" method="GET">
+                    <input type="text" name="query" id="searchInput" placeholder="Buscar..." class="search-input">
+                    <button type="submit" class="boton-busq">Buscar</button>
+                </form>
+            </div>
+    
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#servicio" class="nav__links">Servicios</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#nosotros" class="nav__links">Antecedentes</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#personal" class="nav__links">Cerca de ti</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#mvo" class="nav__links">M-V-O</a>
+                </li>
+                <li class="nav__items">
+                    <a href="IniciarSesion.html" class="nav__links">Iniciar Sesión</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links" id="user-icon-link">
+                        <img src="img/bxs-user.svg" alt="Usuario" class="nav__user-icon">
+                    </a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links" id="user-icon-link">
+                        <img src="img/bx-list-plus.svg" alt="#" class="nav__user-icon">
+                    </a>
+                </li>
+                <img src="img/close.svg" class="nav__close" alt="">
+            </ul>
+    
+            <div class="nav__menu">
+                <img src="img/menu.svg" class="nav__img" alt="">
+            </div>
+        </nav>
+    
+        <section class="hero__container container">
+            <h1 class="hero__title">CarWash Movil</h1>
+            <p class="hero__paragraph">"Tu auto merece el mejor brillo, nosotros se lo damos."</p>
+            <a href="IniciarSesion.html" class="cta">Comienza ahora</a>
+        </section>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br><br><br><br>
+
+
+    <section class="button_Table">
+        <a href="listarCli.php" class="button__tab" id="clientes-btn">Clientes</a>
+        <a href="ListarAdmin.php" class="button__tab" id="administradores-btn">Administradores</a>
+        <a href="listarPaquetes.php" class="button__tab" id="paquetes-btn">Paquetes</a>
+        <a href="listarLavadores.php" class="button__tab" id="lavador-btn">Lavador</a>
+        <a href="listaServiciosAdmin.php" class="button__tab" id="servicio-btn">Servicio</a>
+    </section>
+    
+
+    <br>
+    <br>
+    <br>
+    <br><br><br><br>
+    <br><br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer class="footer" id="footerid">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">CarWash Movil</h2>
+                <ul>
+                    <li>
+                        <p>Dirección</p>
+                        Manuel caballero 131, Col. La obrera, casi equina 5 de febrero, Cuidad de Mexico 06800
+                    </li>
+                    <li>Martinez Garcia Fernando</li>
+                    <li>
+                        <p>Teléfono</p>
+                        52+ 55 6808-1606
+                    </li>
+                    <li>
+                        <p>Email</p>
+                        publicidad131@gmail.com
+                    </li>
+                </ul>
+            </nav>
+    
+            <div class="information">
+                <p class="title-footer">Información</p>
+                <ul>
+                    <li><a href="#">Acerca de Nosotros</a></li>
+                    <li><a href="#">Políticas de Privacidad</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#Contacto">Contáctanos</a></li>
+                </ul>
+            </div>
+    
+            <form class="footer__form" action="#" method="POST">
+                <h2 class="footer__newsletter">Comunicate Con Nosotros</h2>
+                <div class="footer__inputs">
+                    <input type="text" placeholder="Comentario:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Enviar" class="footer__submit">
+                </div>
+            </form>
+        </section>
+    
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="https://www.facebook.com/share/UNwMHmu1zvN31cZS/" class="footer__icons"><img src="img/bxl-facebook.svg" class="footer__img"></a>
+                <a href="https://www.instagram.com/diamondwashservices?utm_source=qr&igsh=MXQ0dnB1ZDUxZDl1bg==" class="footer__icons"><img src="img/bxl-instagram.svg" class="footer__img"></a>
+                <a href="https://mx.linkedin.com" class="footer__icons"><img src="img/bxl-linkedin.svg" class="footer__img"></a>
+            </div>
+            <h3 class="footer__copyright">Derechos reservados &copy; DIG+</h3>
+            <br>
+            <img src="img/payment.png" alt="Pagos">
+        </section>
+    </footer>
+    
+    
+    
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/MjsAdmin.js"></script>
+</body>
+
+</html>
